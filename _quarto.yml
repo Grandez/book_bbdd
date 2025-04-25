@@ -1,0 +1,36 @@
+project:
+  type: book
+
+execute: 
+  echo: false
+  warning: false
+  
+book:
+  title: "bbdd"
+  author: "Norah Jones"
+  date: "18/4/2025"
+  chapters:
+    - index.qmd
+    - chapters/defs/definiciones.qmd
+    - chapters/bbdd/bbdd.qmd
+  appendices:    
+    - license_cc.qmd
+    
+# bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    titlepage: false
+    papersize: a4
+    toc-title: Indice
+    toc: false
+    toc-depth: 4
+    number-sections: true
+
+
+
+

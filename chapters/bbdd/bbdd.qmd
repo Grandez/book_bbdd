@@ -1,0 +1,9 @@
+# Bases de datos Relacionales
+
+## Modelos relacionales
+
+En esta sección abordaremos el interesante asunto de modelar y diseñar bases de datos relacionales
+
+{{< include 01000_management.qmd >}}
+{{< include 02000_logico.qmd >}}
+{{< include 03000_fisico.qmd >}}
